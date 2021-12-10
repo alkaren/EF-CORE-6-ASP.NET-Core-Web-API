@@ -1,6 +1,6 @@
 # BikeStores
 
-![Alt Text](https://github.com/alkaren/EF-CORE-6-ASP.NET-Core-Web-API/blob/master/example.png)
+![Alt Text](https://github.com/alkaren/EF-CORE-6-ASP.NET-Core-Web-API/blob/main/example.png)
 
 ## Using
 - SQL Server
