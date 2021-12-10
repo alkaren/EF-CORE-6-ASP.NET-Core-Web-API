@@ -1,0 +1,69 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "BikestoresContext",
+   "ContextNamespace": "Data",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": "Models",
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "BikeStores.MSSQL",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[production].[brands]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[production].[categories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[production].[products]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[production].[stocks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sales].[customers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sales].[order_items]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sales].[orders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sales].[staffs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[sales].[stores]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DESKTOP-8C6JTTU.BikeStores",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

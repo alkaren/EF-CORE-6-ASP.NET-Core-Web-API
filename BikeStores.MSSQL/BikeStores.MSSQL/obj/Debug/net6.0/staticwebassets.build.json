@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "thYsF5LbBGXDlGTjveiMJHLyokJ1mprcrcJWxo6gW+c=",
+  "Source": "BikeStores.MSSQL",
+  "BasePath": "_content/BikeStores.MSSQL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be54f29e-9d7a-42de-aa62-9e1ac9050ae2": {
+      "ProjectGuid": "be54f29e-9d7a-42de-aa62-9e1ac9050ae2",
+      "DisplayName": "BikeStores.MSSQL",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
