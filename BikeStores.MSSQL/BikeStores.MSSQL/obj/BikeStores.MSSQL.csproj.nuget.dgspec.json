@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alkaren\\source\\repos\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj": {}
+    "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alkaren\\source\\repos\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj": {
+    "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alkaren\\source\\repos\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj",
+        "projectUniqueName": "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj",
         "projectName": "BikeStores.MSSQL",
-        "projectPath": "C:\\Users\\alkaren\\source\\repos\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj",
+        "projectPath": "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\BikeStores.MSSQL.csproj",
         "packagesPath": "C:\\Users\\alkaren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alkaren\\source\\repos\\BikeStores.MSSQL\\BikeStores.MSSQL\\obj\\",
+        "outputPath": "C:\\Users\\alkaren\\Documents\\Git\\EF-CORE-6-ASP.NET-Core-Web-API\\BikeStores.MSSQL\\BikeStores.MSSQL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\alkaren\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -40,10 +43,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -64,10 +63,6 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[6.15.0, )"
-            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -75,10 +70,6 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.15.0, )"
             }
           },
           "imports": [

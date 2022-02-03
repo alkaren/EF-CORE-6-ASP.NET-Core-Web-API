@@ -36,7 +36,7 @@ namespace BikeStores.MSSQL.Controllers
 
             if (brand == null)
             {
-                return NotFound();
+                return NotFound($"Brands with Id = {id} not found");
             }
 
             return brand;
@@ -62,15 +62,16 @@ namespace BikeStores.MSSQL.Controllers
             {
                 if (!BrandExists(id))
                 {
-                    return NotFound();
+                    return NotFound($"Brands with Id = {id} not found");
                 }
                 else
                 {
-                    throw;
+                    return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error updating data");
                 }
             }
 
-            return NoContent();
+            return Ok(brand);
         }
 
         // POST: api/Brands
@@ -91,7 +92,7 @@ namespace BikeStores.MSSQL.Controllers
             var brand = await _context.Brands.FindAsync(id);
             if (brand == null)
             {
-                return NotFound();
+                return NotFound($"Brands with Id = {id} not found");
             }
 
             _context.Brands.Remove(brand);
